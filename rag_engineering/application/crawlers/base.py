@@ -6,6 +6,8 @@ import chromedriver_autoinstaller
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+from rag_engineering.domain.documents import NoSQLBaseDocument
+
 # from rag_engineering.domain.base.nosql import NoSQLBaseDocument
 chromedriver_autoinstaller.install()
   

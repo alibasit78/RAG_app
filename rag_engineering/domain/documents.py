@@ -34,7 +34,6 @@ class RepositoryDocument(Document):
         name = DataCategory.REPOSITORIES
 
 class ArxivDocument(Document):
-    title: str
     link: str
 
     class Settings:

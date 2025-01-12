@@ -10,7 +10,8 @@ class Settings(BaseSettings):
     LINKEDIN_USERNAME: str | None = None
     LINKEDIN_PASSWORD: str | None = None
     
-    DATABASE_HOST: str = "mongodb://rag_engineering:rag_engineering@127.0.0.1:27017"
+    # DATABASE_HOST: str = "mongodb://rag_engineering:rag_engineering@127.0.0.1:27017"
+    DATABASE_HOST: str = "mongodb://127.0.0.1:27017/"
     DATABASE_NAME: str = "rag"
     
     @classmethod
